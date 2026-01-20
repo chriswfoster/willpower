@@ -1,0 +1,21 @@
+{
+  "name": "sql-with-joins",
+  "version": "1.0.0",
+  "description": "Learn SQL queries, CRUD operations, and JOIN statements with SQLite database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["sql", "sqlite", "joins", "database", "crud", "learning"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
